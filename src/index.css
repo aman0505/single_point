@@ -1,0 +1,53 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+@import url('http://fonts.cdnfonts.com/css/poppins');
+
+@tailwind base;
+
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        margin-left: 0px;
+        margin-right: 0px;
+        min-width: 100vw;
+        overflow-x: hidden;
+    }
+}
+
+@layer base {
+    body {
+        background:#E0E0E0
+    }
+}
+
+@layer utilities {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+
+/* .customer_table tr:nth-child(even) {
+    @apply bg-zinc-200;
+
+
+} */
+
+
+.greadent {
+    background-image: linear-gradient(360deg, #0844ddfd 0.06%, rgba(0, 50, 177, 0) 100%);
+}
+
+.navBg {
+    background: rgba(37, 140, 251, 0.08);
+}
+
+.greadentfundingCard1 {
+    background: linear-gradient(238.18deg, #47B2FF -9.5%, #1565C2 142.44%);
+}
+
+.greadentfundingCard2 {
+    background: linear-gradient(244.44deg, #FDBA04 -7.52%, #FD9904 101.5%);
+}
